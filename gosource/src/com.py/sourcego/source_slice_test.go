@@ -63,3 +63,8 @@ func BenchmarkSliceAppendMake(b *testing.B) {
 	})
 
 }
+
+func TestMapInit(t *testing.T) {
+	MapInit()
+}
+
