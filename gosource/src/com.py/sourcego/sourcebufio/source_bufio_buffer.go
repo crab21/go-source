@@ -17,3 +17,4 @@ func BufferRead() {
 	fmt.Println(sp)
 	bufio.NewWriter(open)
 }
+
