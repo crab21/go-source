@@ -10,15 +10,15 @@ func MakeChanProcess() {
 	intChan := make(chan string, 1)
 	fmt.Println("before:======",uintptr(unsafe.Pointer(&intChan)),"")
 	isChanClod(intChan)
-	//isChanClosed(intChan)
-	//close(intChan)
-	//spin()
-	//
-	//
-	//var spmap map[string]string
-	//fmt.Println("before map:======",uintptr(unsafe.Pointer(&spmap)),"")
-	//
-	//isMap(spmap)
+	isChanClosed(intChan)
+	close(intChan)
+	spin()
+
+
+	var spmap map[string]string
+	fmt.Println("before map:======",uintptr(unsafe.Pointer(&spmap)),"")
+
+	isMap(spmap)
 }
 
 func isMap(spmap interface{}) {
@@ -77,7 +77,7 @@ func isChanClod(ch interface{}) bool {
 	//fmt.Println(&ch,"=====")
 	u := uintptr(unsafe.Pointer(&ch))
 	fmt.Println("turn now==== ",u)
-	/*
+
 	cptr := *(*uintptr)(unsafe.Pointer(
 		unsafe.Pointer( u+ unsafe.Sizeof(uint(0))),
 	))
@@ -99,6 +99,5 @@ func isChanClod(ch interface{}) bool {
 	p := *(*uint32)(unsafe.Pointer(cptr)) > 0
 	fmt.Println(p)
 
-	return p*/
-	return true
+	return p
 }
