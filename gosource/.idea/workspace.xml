@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/goformat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/mod/honnef.co/go/tools@v0.0.1-2020.1.3/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_bytealign.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/source_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/source_slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcechan/source_chan_make_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcechan/source_chan_make_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +21,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$" />
       </list>
     </option>
-    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1Z9fslKAMIGcWbRZbDCg7T9gSJw" />
   <component name="ProjectLevelVcsManager">
@@ -61,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,10 +190,10 @@
     </state>
     <state width="1398" height="327" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585492419611" />
     <state width="1398" height="327" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1585498867187" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1585842006091">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1585846791119">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585842006091" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585846791119" />
     <state x="229" y="103" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1585453220768" />
     <state x="383" y="96" width="673" height="708" key="find.popup" timestamp="1585832632703">
       <screen x="0" y="0" width="1440" height="900" />

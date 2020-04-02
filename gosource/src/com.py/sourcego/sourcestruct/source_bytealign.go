@@ -2,8 +2,8 @@ package sourcestruct
 
 
 type Name struct {
-	Age int
+	Age uint8
 	Wang string
-	Good []int
+	Good [3]int
 	Point uintptr
 }
