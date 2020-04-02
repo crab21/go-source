@@ -2,10 +2,9 @@ package sourcego
 
 import "fmt"
 
-// []byte复制
-
-//赋值方式
 func SliceCopyOfNormal(des, source []string) {
+	// []byte复制
+	//赋值方式
 	des = source
 }
 
@@ -32,7 +31,7 @@ func SliceAppendNormal(source []string) {
 
 //截取
 func MapInit() {
-	a := []string{"1", "2", "3", "4", "5",}
+	a := []string{"1", "2", "3", "4", "5"}
 	b := make([]string, len(a))
 
 	//深度拷贝  不仅是值得拷贝，附带底层地址的改变
@@ -50,7 +49,7 @@ func MapInit() {
 	sourceSliceInterception(b)
 	fmt.Println(b) //[wwwwwww 2 3 4 5]
 	fmt.Println(a) //[1 2 3 4 5]
-	bam := Bam{Age: 10,}
+	bam := Bam{Age: 10}
 	bam.BamChange()
 	fmt.Println(bam)
 	BamChange(&bam)
