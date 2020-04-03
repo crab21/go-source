@@ -65,3 +65,8 @@ func BenchmarkStringToByte(b *testing.B) {
 
 	})
 }
+
+func TestIntHashInfo(t *testing.T) {
+
+	IntHashInfo()
+}
