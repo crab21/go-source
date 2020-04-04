@@ -70,3 +70,34 @@ func sourceSliceInterception(sl []string) {
 	sl[0] = "wwwwwww"
 
 }
+
+/**
+边界检查分析
+//go tool compile -d ssa/prove/debug=2 source_slice.go
+ */
+
+func NumSameBytes_1(x, y string) int {
+	if len(x) > len(y) {
+		x, y = y, x
+	}
+	for i := 0; i < len(x); i++ {
+		if x[i] != y[i] {
+			return i
+		}
+	}
+	return len(x)
+}
+
+func NumSameBytes_2(x, y string) int {
+	if len(x) > len(y) {
+		x, y = y, x
+	}
+	if len(x) <= len(y) { // 虽然代码多了，但是效率提高了
+		for i := 0; i < len(x); i++ {
+			if x[i] != y[i] { // 边界检查被消除了
+				return i
+			}
+		}
+	}
+	return len(x)
+}

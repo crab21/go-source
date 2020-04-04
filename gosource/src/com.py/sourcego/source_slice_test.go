@@ -2,6 +2,7 @@ package sourcego
 
 import (
 	"fmt"
+	"strings"
 	"testing"
 )
 
@@ -66,5 +67,21 @@ func BenchmarkSliceAppendMake(b *testing.B) {
 
 func TestMapInit(t *testing.T) {
 	MapInit()
+}
+
+
+var x = strings.Repeat("hello", 100) + " world!"
+var y = strings.Repeat("hello", 99) + " world!"
+
+func BenchmarkNumSameBytes_1(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = NumSameBytes_1(x, y)
+	}
+}
+
+func BenchmarkNumSameBytes_2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = NumSameBytes_2(x, y)
+	}
 }
 

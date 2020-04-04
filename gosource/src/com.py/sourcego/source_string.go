@@ -55,5 +55,5 @@ HeapReleased：回收到操作系统的内存
 func printMemStats() {
 	var m runtime.MemStats
 	runtime.ReadMemStats(&m)
-	fmt.Printf("HeapAlloc = %v HeapIdel= %v HeapSys = %v  HeapReleased = %v\n", m.HeapAlloc/1, m.HeapIdle/1, m.HeapSys/1,  m.HeapReleased/1)
+	fmt.Printf("HeapAlloc = %v HeapIdel= %v HeapSys = %v  HeapReleased = %v\n", m.HeapAlloc/1024, m.HeapIdle/1024, m.HeapSys/1024,  m.HeapReleased/1024)
 }
