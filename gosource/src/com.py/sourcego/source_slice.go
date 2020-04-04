@@ -13,6 +13,17 @@ func SliceCopyOfApi(des, source []string) {
 	copy(des, source)
 }
 
+//高效复制   复用原地址，减少内存开辟时间 ✅✅✅✅✅✅✅✅✅
+//后续通过汇编查看两个的重要区别
+func SliceCopyOfSelf() {
+	a:=make([]int, 10)
+	fmt.Println(a)
+	b:=append(a[:0:0],a...)
+	fmt.Println(b)
+	b[2]= 111
+	fmt.Println(a,"   ",b)
+}
+
 //slice append方式
 
 //make后再添加
@@ -100,4 +111,28 @@ func NumSameBytes_2(x, y string) int {
 		}
 	}
 	return len(x)
+}
+
+/**
+slice1: [2 6 7 8]
+arr1: [1 2 6 7 8]
+slice2: [2 3 6 7 8]
+arr2: [1 2 3 4 5]
+
+
+*/
+
+//当原数组容量够用，则在原来的基础上扩容  ✅✅✅✅✅✅✅✅✅✅✅✅✅
+//详细原因参考go-plan9: https://plan9.io/sources/contrib/ericvh/go-plan9/src/pkg/
+func AppendError() {
+	arr1 := [5]int{1, 2, 3, 4, 5}
+	slice1 := arr1[1:2]
+	slice1 = append(slice1, 6, 7, 8)
+	fmt.Println("slice1:", slice1)
+	fmt.Println("arr1:", arr1)
+	arr2 := [5]int{1, 2, 3, 4, 5}
+	slice2 := arr2[1:3]
+	slice2 = append(slice2, 6, 7, 8)
+	fmt.Println("slice2:", slice2)
+	fmt.Println("arr2:", arr2)
 }

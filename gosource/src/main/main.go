@@ -1,8 +1,6 @@
 package main
 
-import (
-	"com.py/sourcego/sourcechan"
-)
+import "fmt"
 
 /*func smain() {
 	for a:=0;a<1000 ;a++  {
@@ -14,7 +12,6 @@ import (
 }*/
 func main() {
 	//sourcehttp.WebsocketServerStart()
-	sourcechan.MakeChanProcess()
+	//sourcechan.MakeChanProcess()
 
 }
-
