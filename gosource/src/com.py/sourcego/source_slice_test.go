@@ -103,10 +103,22 @@ var yForMakeCopy []T
 var yForAppend []T
 
 func Benchmark_MakeAndCopy(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		yForMakeCopy = make([]T, N)
-		copy(yForMakeCopy, xForMakeCopy)
-	}
+	b.Run("copy", func(bc *testing.B) {
+		for i:=0;i<bc.N ;i++  {
+			for i := 0; i < b.N; i++ {
+				yForMakeCopy = make([]T, N)
+				copy(yForMakeCopy, xForMakeCopy)
+			}
+		}
+	})
+
+	b.Run("append", func(bc *testing.B) {
+		for i:=0;i<bc.N ;i++  {
+			for i := 0; i < b.N; i++ {
+				yForAppend = append(xForAppend[:0:0], xForAppend...)
+			}
+		}
+	})
 }
 
 
@@ -115,4 +127,8 @@ func Benchmark_Append(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		yForAppend = append(xForAppend[:0:0], xForAppend...)
 	}
+}
+
+func TestEscapeSliceSize(t *testing.T) {
+	EscapeSliceSize()
 }
