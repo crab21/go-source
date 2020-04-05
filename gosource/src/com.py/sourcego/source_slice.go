@@ -1,6 +1,8 @@
 package sourcego
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func SliceCopyOfNormal(des, source []string) {
 	// []byte复制
@@ -135,4 +137,15 @@ func AppendError() {
 	slice2 = append(slice2, 6, 7, 8)
 	fmt.Println("slice2:", slice2)
 	fmt.Println("arr2:", arr2)
+}
+
+//逃逸分析
+//去掉最后一行打印  则输出32，32
+//go run -gcflags="-m -N" **.go
+func EscapeSliceSize() {
+	s := "a"
+	x := []byte(s)              // len(s) == 1
+	fmt.Println(cap([]byte(s))) // 32
+	fmt.Println(cap(x))         // 8
+	fmt.Println(x)
 }
