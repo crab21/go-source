@@ -57,3 +57,15 @@ func printMemStats() {
 	runtime.ReadMemStats(&m)
 	fmt.Printf("HeapAlloc = %v HeapIdel= %v HeapSys = %v  HeapReleased = %v\n", m.HeapAlloc/1024, m.HeapIdle/1024, m.HeapSys/1024,  m.HeapReleased/1024)
 }
+
+
+func StringToBytes(){
+	spp:=""
+	s := []byte(spp)	// 0x0042 00066 (source_string.go:64)      CALL    runtime.stringtoslicebyte(SB)
+	sp:=[]byte(spp)		// CALL    runtime.stringtoslicebyte(SB)
+	fmt.Println(cap(sp))
+	s1 := append(s, 'a')
+	s2 := append(s, 'b')
+	fmt.Println(s1, "==========", s2)
+	fmt.Println(cap(s), "==========", cap(s2),"==",cap(s1))
+}

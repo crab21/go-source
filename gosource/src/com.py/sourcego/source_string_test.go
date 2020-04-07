@@ -70,3 +70,7 @@ func TestIntHashInfo(t *testing.T) {
 
 	IntHashInfo()
 }
+
+func TestStringToBytes(t *testing.T) {
+	StringToBytes()
+}

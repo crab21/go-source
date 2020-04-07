@@ -1,6 +1,8 @@
 package main
 
-import "com.py/sourcego"
+import (
+	"fmt"
+)
 
 /*func smain() {
 	for a:=0;a<1000 ;a++  {
@@ -21,9 +23,13 @@ const (
 	EB
 	ZB
 	YB
-)
+)//sourcehttp.WebsocketServerStart()
+//sourcechan.MakeChanProcess()
 func main() {
-	//sourcehttp.WebsocketServerStart()
-	//sourcechan.MakeChanProcess()
-	sourcego.EscapeSliceSize()
+
+	s := ""
+	x := []byte(s)              // len(s) == 1
+	fmt.Println(cap([]byte(s))) // 32
+	fmt.Println(cap(x))         // 8
+	//fmt.Println(x)
 }
