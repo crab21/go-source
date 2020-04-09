@@ -132,3 +132,7 @@ func Benchmark_Append(b *testing.B) {
 func TestEscapeSliceSize(t *testing.T) {
 	EscapeSliceSize()
 }
+
+func TestAppendSliceError(t *testing.T) {
+	AppendSliceError()
+}
