@@ -126,7 +126,7 @@ arr2: [1 2 3 4 5]
 
 //当原数组容量够用，则在原来的基础上扩容  ✅✅✅✅✅✅✅✅✅✅✅✅✅
 //详细原因参考go-plan9: https://plan9.io/sources/contrib/ericvh/go-plan9/src/pkg/
-func AppendError() {
+func AppendSliceError() {
 	arr1 := [5]int{1, 2, 3, 4, 5}
 	slice1 := arr1[1:2]
 	slice1 = append(slice1, 6, 7, 8)
