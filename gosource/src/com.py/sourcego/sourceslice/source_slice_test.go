@@ -1,4 +1,4 @@
-package sourcego
+package sourceslice
 
 import (
 	"fmt"
