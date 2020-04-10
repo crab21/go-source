@@ -14,7 +14,24 @@ func AppendLearn_1() {
 
 #### 当前容量够用时
 ```
-  0x006f 00111 (source_slice.go:131)      PCDATA  $0, $1
+        0x0032 00050 (source_slice.go:130)      PCDATA  $0, $1
+        0x0032 00050 (source_slice.go:130)      PCDATA  $1, $0
+        0x0032 00050 (source_slice.go:130)      LEAQ    type.[5]int(SB), AX
+        0x0039 00057 (source_slice.go:130)      PCDATA  $0, $0
+        0x0039 00057 (source_slice.go:130)      MOVQ    AX, (SP)
+        0x003d 00061 (source_slice.go:130)      CALL    runtime.newobject(SB)
+        0x0042 00066 (source_slice.go:130)      PCDATA  $0, $1
+        0x0042 00066 (source_slice.go:130)      MOVQ    8(SP), AX
+        0x0047 00071 (source_slice.go:130)      PCDATA  $1, $1
+        0x0047 00071 (source_slice.go:130)      MOVQ    AX, "".&arr1+232(SP)
+        0x004f 00079 (source_slice.go:130)      MOVQ    ""..stmp_5(SB), CX
+        0x0056 00086 (source_slice.go:130)      MOVQ    CX, (AX)
+        0x0059 00089 (source_slice.go:130)      MOVUPS  ""..stmp_5+8(SB), X0
+        0x0060 00096 (source_slice.go:130)      MOVUPS  X0, 8(AX)
+        0x0064 00100 (source_slice.go:130)      MOVUPS  ""..stmp_5+24(SB), X0    //movups将4个不精准的单精度值传送到内存
+        0x006b 00107 (source_slice.go:130)      PCDATA  $0, $0
+        0x006b 00107 (source_slice.go:130)      MOVUPS  X0, 24(AX)
+        0x006f 00111 (source_slice.go:131)      PCDATA  $0, $1
         0x006f 00111 (source_slice.go:131)      MOVQ    "".&arr1+232(SP), AX
         0x0077 00119 (source_slice.go:131)      TESTB   AL, (AX)
         0x0079 00121 (source_slice.go:131)      JMP     123
@@ -61,11 +78,12 @@ func AppendLearn_1() {
       0x05cc 01484 (source_slice.go:137)      MOVQ    CX, (SP)
       0x05d0 01488 (source_slice.go:137)      PCDATA  $0, $0
       0x05d0 01488 (source_slice.go:137)      MOVQ    AX, 8(SP)
-      0x05d5 01493 (source_slice.go:137)      MOVQ    $2, 16(SP)
-      0x05de 01502 (source_slice.go:137)      MOVQ    $4, 24(SP)
-      0x05e7 01511 (source_slice.go:137)      MOVQ    $5, 32(SP)
+      0x05d5 01493 (source_slice.go:137)      MOVQ    $2, 16(SP) //起始添加的指针位置
+      0x05de 01502 (source_slice.go:137)      MOVQ    $4, 24(SP) //现有的最大容量指针位置
+      0x05e7 01511 (source_slice.go:137)      MOVQ    $5, 32(SP) //添加完成后的指针位置位置
 // 调用切片扩容？？依据呢？？
 //todo 分析扩容原因和关键点
+//==> MOVQ将参数$5，移动到32（SP）寄存器上(理解有偏差，后期查阅后继续修正
       0x05f0 01520 (source_slice.go:137)      CALL    runtime.growslice(SB)              =============*********=============
       0x05f5 01525 (source_slice.go:137)      PCDATA  $0, $1
       0x05f5 01525 (source_slice.go:137)      MOVQ    40(SP), AX
