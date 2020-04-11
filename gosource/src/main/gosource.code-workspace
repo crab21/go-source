@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"go.languageServerExperimentalFeatures": {
+		"format": true,
+		"diagnostics": true,
+		"documentLink": true
+	},
+	"settings": {
+		"go.gocodeAutoBuild": true
+	}
+}

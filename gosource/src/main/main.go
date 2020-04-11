@@ -13,6 +13,7 @@ import (
 	}
 }*/
 type ByteSize float64
+
 const (
 	_           = iota // ignore first value by assigning to blank identifier
 	KB ByteSize = 1 << (10 * iota)
@@ -23,8 +24,9 @@ const (
 	EB
 	ZB
 	YB
-)//sourcehttp.WebsocketServerStart()
+) //sourcehttp.WebsocketServerStart()
 //sourcechan.MakeChanProcess()
+
 func main() {
 
 	s := ""
