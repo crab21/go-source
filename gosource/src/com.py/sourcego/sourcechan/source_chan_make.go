@@ -8,21 +8,20 @@ import (
 func MakeChanProcess() {
 
 	intChan := make(chan string, 1)
-	fmt.Println("before:======",uintptr(unsafe.Pointer(&intChan)),"")
+	fmt.Println("before:======", uintptr(unsafe.Pointer(&intChan)), "")
 	isChanClod(intChan)
 	isChanClosed(intChan)
 	close(intChan)
 	spin()
 
-
 	var spmap map[string]string
-	fmt.Println("before map:======",uintptr(unsafe.Pointer(&spmap)),"")
+	fmt.Println("before map:======", uintptr(unsafe.Pointer(&spmap)), "")
 
 	isMap(spmap)
 }
 
 func isMap(spmap interface{}) {
-	fmt.Println("now    map:======",uintptr(unsafe.Pointer(&spmap)),"")
+	fmt.Println("now    map:======", uintptr(unsafe.Pointer(&spmap)), "")
 }
 func spin() {
 	fmt.Println(unsafe.Sizeof(uint64(0)))
@@ -54,7 +53,7 @@ type hchan struct {
 func isChanClosed(ch chan string) {
 	//取到地址
 	cptr := *(*uintptr)(unsafe.Pointer(&ch))
-	fmt.Println("chanclosed:",cptr)
+	fmt.Println("chanclosed:", cptr)
 
 	//qcount 和dataqsiz 偏移量大小
 	cptr += unsafe.Sizeof(uint(0)) * 2
@@ -76,13 +75,13 @@ func isChanClod(ch interface{}) bool {
 	//fmt.Println("turn over:======",up)
 	//fmt.Println(&ch,"=====")
 	u := uintptr(unsafe.Pointer(&ch))
-	fmt.Println("turn now==== ",u)
+	fmt.Println("turn now==== ", u)
 
 	cptr := *(*uintptr)(unsafe.Pointer(
-		unsafe.Pointer( u+ unsafe.Sizeof(uint(0))),
+		unsafe.Pointer(u + unsafe.Sizeof(uint(0))),
 	))
 
-	fmt.Println("turn now=--  ",cptr)
+	fmt.Println("turn now=--  ", cptr)
 	// this function will return true if chan.closed > 0
 	// see hchan on https://github.com/golang/go/blob/master/src/runtime/chan.go
 	// type hchan struct {
