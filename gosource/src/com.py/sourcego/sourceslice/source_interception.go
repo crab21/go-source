@@ -36,3 +36,4 @@ func SliceInte_1() {
 	//2-addr:  0xc00000c1c0
 	fmt.Println("2-addr: ",unsafe.Pointer(&number_inte2))
 }
+
