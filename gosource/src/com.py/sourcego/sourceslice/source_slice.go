@@ -18,12 +18,12 @@ func SliceCopyOfApi(des, source []string) {
 //高效复制   复用原地址，减少内存开辟时间 ✅✅✅✅✅✅✅✅✅
 //后续通过汇编查看两个的重要区别
 func SliceCopyOfSelf() {
-	a:=make([]int, 10)
+	a := make([]int, 10)
 	fmt.Println(a)
-	b:=append(a[:0:0],a...)
+	b := append(a[:0:0], a...)
 	fmt.Println(b)
-	b[2]= 111
-	fmt.Println(a,"   ",b)
+	b[2] = 111
+	fmt.Println(a, "   ", b)
 }
 
 //slice append方式
@@ -87,7 +87,7 @@ func sourceSliceInterception(sl []string) {
 /**
 边界检查分析
 //go tool compile -d ssa/prove/debug=2 source_slice.go
- */
+*/
 
 func NumSameBytes_1(x, y string) int {
 	if len(x) > len(y) {
@@ -134,7 +134,7 @@ func AppendSliceError() {
 	fmt.Println("arr1:", arr1)
 	arr2 := [5]int{1, 2, 3, 4, 5}
 	slice2 := arr2[1:3]
-	slice2 = append(slice2, 6,7,8)
+	slice2 = append(slice2, 6, 7, 8)
 	fmt.Println("slice2:", slice2)
 	fmt.Println("arr2:", arr2)
 }
