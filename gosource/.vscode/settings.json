@@ -1,3 +1,5 @@
 {
-    "go.inferGopath": false
+    "go.inferGopath": false,
+    "go.formatTool": "goformat",
+    "go.docsTool": "gogetdoc"
 }
