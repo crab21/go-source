@@ -1,4 +1,2 @@
 package sourcebufio
 
-import "testing"
-

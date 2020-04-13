@@ -147,5 +147,5 @@ func EscapeSliceSize() {
 	x := []byte(s)              // len(s) == 1
 	fmt.Println(cap([]byte(s))) // 32
 	fmt.Println(cap(x))         // 8
-	fmt.Println(x)
+	// fmt.Println(x)
 }
