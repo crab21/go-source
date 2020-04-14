@@ -100,3 +100,45 @@ func AppendLearn_1() {
       0x062a 01578 (source_slice.go:137)      MOVQ    CX, "".slice2+648(SP)
       0x0632 01586 (source_slice.go:137)      MOVQ    DX, "".slice2+656(SP)
  ```
+#### slice append扩容说明
+>修正：根据builtin.go源码说明，append根据大小，自动选择是否扩容，再根据上面汇编结果，runtime.growslice，判断当容量不足时，会选择自动扩容。
+
+### plan9源码分析扩容情况
+
+[go-plan9-slice源码分析](https://plan9.io/sources/contrib/ericvh/go-plan9/src/pkg/runtime/slice.c)
+#### 分析其中一种截取情况：slice[a:b:c]  条件： a<b b<=c  len:=b-a cap:=c-a
+```cgo
+// sliceslice(old []any, lb int, hb int, width int) (ary []any);
+void
+runtime·sliceslice(Slice old, uint32 lb, uint32 hb, uint32 width, Slice ret)
+{
+	if(hb > old.cap || lb > hb) {
+		if(debug) {
+			prints("runtime·sliceslice: old=");
+			runtime·printslice(old);
+			prints("; lb=");
+			runtime·printint(lb);
+			prints("; hb=");
+			runtime·printint(hb);
+			prints("; width=");
+			runtime·printint(width);
+			prints("\n");
+
+			prints("oldarray: nel=");
+			runtime·printint(old.len);
+			prints("; cap=");
+			runtime·printint(old.cap);
+			prints("\n");
+		}
+        //如果容量超出或者是最大下标超出，则抛出异常
+		throwslice(lb, hb, old.cap);
+	}
+
+	// new array is inside old array
+	ret.len = hb - lb;
+	ret.cap = old.cap - lb;
+	ret.array = old.array + lb*width;
+    ...
+    ...
+}
+```
