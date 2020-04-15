@@ -142,3 +142,7 @@ runtime·sliceslice(Slice old, uint32 lb, uint32 hb, uint32 width, Slice ret)
     ...
 }
 ```
+
+#### slice扩容再度分析：
+
+[slice源码分析扩容机制](https://docs.google.com/presentation/d/1Ldeya8FtmOuwD1nsouVJ2YDDXXlsTph1QCr59j2hyTc/edit?usp=sharing)
