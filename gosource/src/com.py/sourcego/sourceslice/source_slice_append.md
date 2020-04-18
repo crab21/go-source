@@ -146,3 +146,52 @@ runtime·sliceslice(Slice old, uint32 lb, uint32 hb, uint32 width, Slice ret)
 #### slice扩容再度分析：
 
 [slice源码分析扩容机制](https://docs.google.com/presentation/d/1Ldeya8FtmOuwD1nsouVJ2YDDXXlsTph1QCr59j2hyTc/edit?usp=sharing)
+
+#### slice grow函数扩容分析：
+
+
+```cgo
+//为s添加x...数组。
+func Append(s Value, x ...Value) Value {
+	//确定类型
+    s.mustBe(Slice)
+    //取长度比较，扩容决定
+	s, i0, i1 := grow(s, len(x))
+	for i, j := i0, 0; i < i1; i, j = i+1, j+1 {
+		s.Index(i).Set(x[j])
+	}
+	return s
+}
+```
+
+```cgo
+// grow grows the slice s so that it can hold extra more values, allocating
+// more capacity if needed. It also returns the old and new slice lengths.
+func grow(s Value, extra int) (Value, int, int) {
+	i0 := s.Len()
+	i1 := i0 + extra
+	if i1 < i0 {
+		panic("reflect.Append: slice overflow")
+	}
+	m := s.Cap()
+    //算上添加的新元素，没有超过当前的最大容量值，不需要扩容。
+	if i1 <= m {
+		return s.Slice(0, i1), i0, i1
+	}
+	if m == 0 {
+		m = extra
+	} else {
+		for m < i1 {
+			if i0 < 1024 {
+				m += m
+			} else {
+				m += m / 4
+			}
+		}
+	}
+	t := MakeSlice(s.Type(), i1, m)
+    //额。。。。很致命的一个copy，导致slice地址的改变。
+	Copy(t, s)
+	return t, i0, i1
+}
+```
