@@ -100,3 +100,22 @@ func isChanClod(ch interface{}) bool {
 
 	return p
 }
+
+type isChanClodInterface func(ch interface{})bool
+
+func SendFuncByChan() {
+	var a =make(chan interface{},1)
+
+	var s isChanClodInterface
+	s= isChanClod
+	fmt.Println(s)
+	a<-s
+	sa,ok:=<-a
+	if ok{
+		//sap:=sa.(func(ch interface{})bool)(a)
+		sap, yes:=sa.(isChanClodInterface)
+		if yes {
+			fmt.Print(sap(a))
+		}
+	}
+}
