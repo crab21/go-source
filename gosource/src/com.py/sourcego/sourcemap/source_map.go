@@ -44,3 +44,6 @@ func ChangeSliceNil(a []int) {
 	a[1] = 20000
 
 }
+
+
+
