@@ -62,7 +62,8 @@ func TestChangeMapValue(t *testing.T) {
 	//len:  2  cap:  20
 	fmt.Println(" len: ",len(sliceTestDataAppendMake)," cap: ",cap(sliceTestDataAppendMake))
 	ChangeSliceAppend(sliceTestDataAppendMake)
-	//[300 20000]
+	//[300 20000]   cap足够大，则add新元素，属于值拷贝，第0位和第1位值的改变，依旧会影响原slice值。
 	fmt.Println(sliceTestDataAppendMake)
 
 }
+
