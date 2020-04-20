@@ -24,7 +24,7 @@ ChangeSliceAppend=== len:  4  cap:  20
 ChangeSliceAppend data: [300 20000 999 888]
 [300 20000]
 
- */
+*/
 func TestChangeMapValue(t *testing.T) {
 	var sp = map[int]int{1:20}
 	ChangeMapValue(sp)

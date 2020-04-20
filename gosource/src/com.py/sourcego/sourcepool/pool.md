@@ -113,3 +113,5 @@ pool在get时P会绑定M.***
 ### 那么也产生了一个新的问题：
 * goroutine调度模型？高效解决的中心思想？
 * 线程安全的产生？定义？解决方法？
+
+[go调度模型](https://docs.google.com/presentation/d/1YyJLB8ihCB0T4FS01W38okL0FwQAdtRQpquNF-1mU3A/edit?usp=sharing)
