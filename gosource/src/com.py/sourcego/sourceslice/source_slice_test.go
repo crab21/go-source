@@ -157,3 +157,8 @@ func TestEscapeSliceSize(t *testing.T) {
 func TestAppendSliceError(t *testing.T) {
 	AppendSliceError()
 }
+
+
+func TestSliceAppendSlice(t *testing.T) {
+	SliceAppendSlice()
+}
