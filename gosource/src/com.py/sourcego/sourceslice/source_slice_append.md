@@ -195,3 +195,19 @@ func grow(s Value, extra int) (Value, int, int) {
 	return t, i0, i1
 }
 ```
+
+#### slice Append Slice
+```cgo
+
+// AppendSlice appends a slice t to a slice s and returns the resulting slice.
+// The slices s and t must have the same element type.
+func AppendSlice(s, t Value) Value {
+	s.mustBe(Slice)
+	t.mustBe(Slice)
+	typesMustMatch("reflect.AppendSlice", s.Type().Elem(), t.Type().Elem())
+	s, i0, i1 := grow(s, t.Len())
+    //值拷贝，并追加其后，意味着t中值得改变，不会影响s中的值
+	Copy(s.Slice(i0, i1), t)
+	return s
+}
+```
