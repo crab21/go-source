@@ -24,7 +24,12 @@ func BenchmarkStringToByte(b *testing.B) {
 		b.ResetTimer()
 		for i := 0; i < b.N; i++ {
 			for s := 0; s < count; s++ {
+				//error using
 				_ = *(*[]byte)(unsafe.Pointer(&ss))
+
+				//right using
+				strEx :=StringEx{ss,len(ss)}
+				_ =*(*[]byte)(unsafe.Pointer(&strEx))
 			}
 		}
 	})
