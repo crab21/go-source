@@ -67,3 +67,42 @@ func StringToBytes() {
 	fmt.Println(s1, "==========", s2)
 	fmt.Println(cap(s), "==========", cap(s2), "==", cap(s1))
 }
+
+/**
+type string struct{
+	data
+	len
+}
+
+type slice struct{
+	data
+	len
+	cap
+}
+*T1--->uintptr---->*T2
+T1的尺寸不能小于T2
+当由小尺寸往大尺寸转时，不能直接转换，需要借助中间辅助量来完成
+ */
+func StringToByteSlice() {
+	sa:= "abc"
+
+	//error done:
+	sa_slice:=*(*[]byte)(unsafe.Pointer(&sa))
+	//[97 98 99]
+	fmt.Println(sa_slice)
+	//len:  3  cap:  4294967297
+	fmt.Println("len: ",len(sa_slice), " cap: ",cap(sa_slice))
+
+	//right done:
+	strEx :=StringEx{sa,len(sa)}
+	strEx_slice :=*(*[]byte)(unsafe.Pointer(&strEx))
+	//[97 98 99]
+	fmt.Println(strEx_slice)
+	//len:  3  cap:  3
+	fmt.Println("len: ",len(strEx_slice), " cap: ",cap(strEx_slice))
+
+}
+type StringEx struct {
+	string
+	cap int
+}
