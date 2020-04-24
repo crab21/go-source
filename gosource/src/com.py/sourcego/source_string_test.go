@@ -74,3 +74,7 @@ func TestIntHashInfo(t *testing.T) {
 func TestStringToBytes(t *testing.T) {
 	StringToBytes()
 }
+
+func TestStringToByteSlice(t *testing.T) {
+	StringToByteSlice()
+}
