@@ -37,7 +37,7 @@ func SliceInte_1() {
 	fmt.Println("2-addr: ",unsafe.Pointer(&number_inte2))
 }
 
-
+// go tool compile -N -L -S source_interception.go
 func SliceInteAB() {
 	var number = []int{1,2,3}
 	result :=number[0:2]
