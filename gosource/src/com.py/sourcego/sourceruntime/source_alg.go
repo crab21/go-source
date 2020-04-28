@@ -9,7 +9,7 @@ func c(a, b T) {
 			print(0)
 		}
 	}()
-	if a != b {
+	if a != b {   	// assembler: CALL    type..eq."".T(SB)
 		print(1)
 	} else {
 		print(2)
@@ -33,5 +33,23 @@ func AlgMemequals() {
 	//runtime.memequal64
 	c(T{1, f}, T{2, f})
 	c(T{f, 1}, T{f, 2}) //runtime error: comparing uncomparable type func()
+}
+func AlgMemequalsFunc() {
+	var a =AlgStringInsert
+	var b =AlgStringInsertTwo
+
+	c(T{1.0, a}, T{2.0, b})
+	c(T{a, 1}, T{b, 2})
+	c(T{1, a}, T{2, b})
+	c(T{a, 1}, T{b, 2})
+	// ==> 1111
+}
+
+func AlgStringInsert(a int,b string) {
+	fmt.Println(a,b)
+}
+
+func AlgStringInsertTwo(a int,b,c string) {
+	fmt.Println(a,b,c)
 }
 
