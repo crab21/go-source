@@ -53,3 +53,27 @@ func TestSliceInte_1(t *testing.T) {
 func TestSliceInteAB(t *testing.T) {
 	SliceInteAB()
 }
+/**
+  0x0124 00292 (source_interception.go:50)        JMP     294
+  0x0126 00294 (source_interception.go:50)        PCDATA  $0, $-1
+  0x0126 00294 (source_interception.go:50)        PCDATA  $1, $-1
+  0x0126 00294 (source_interception.go:50)        JMP     296
+  0x0128 00296 (source_interception.go:50)        JMP     298
+  0x012a 00298 (source_interception.go:50)        PCDATA  $0, $1
+  0x012a 00298 (source_interception.go:50)        PCDATA  $1, $2
+  0x012a 00298 (source_interception.go:50)        ADDQ    $8, AX
+  0x012e 00302 (source_interception.go:50)        MOVQ    AX, "".result+480(SP)
+  0x0136 00310 (source_interception.go:50)        MOVQ    $1, "".result+488(SP)  $1指当前长度
+  0x0142 00322 (source_interception.go:50)        MOVQ    $5, "".result+496(SP)  $5指当前容量
+  ......
+  0x02f4 00756 (source_interception.go:54)        MOVQ    "".result+488(SP), AX
+  0x02fc 00764 (source_interception.go:54)        MOVQ    AX, "".length+88(SP)
+  ......
+   0x051d 01309 (source_interception.go:57)        MOVQ    "".result+496(SP), AX
+   0x0525 01317 (source_interception.go:57)        MOVQ    AX, "".caption+96(SP)
+
+
+ */
+func TestSliceInteABC(t *testing.T) {
+	SliceInteABC()
+}

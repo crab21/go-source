@@ -44,3 +44,16 @@ func SliceInteAB() {
 	fmt.Println(result)
 
 }
+
+func SliceInteABC() {
+	var number = []int{0,1,2,3,4,5,6,7,8,9}
+	result:=number[1:4:6]
+	//[1]
+	fmt.Println(result)
+	//len:  1
+	length:=len(result)
+	fmt.Println("len: ",length)
+	//cap:  4
+	caption:=cap(result)
+	fmt.Println("cap: ",caption)
+}
