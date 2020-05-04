@@ -77,3 +77,7 @@ func TestSliceInteAB(t *testing.T) {
 func TestSliceInteABC(t *testing.T) {
 	SliceInteABC()
 }
+
+func TestSliceAndArray(t *testing.T) {
+	SliceAndArray()
+}
