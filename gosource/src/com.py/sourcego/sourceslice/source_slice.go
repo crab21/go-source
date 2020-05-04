@@ -159,3 +159,4 @@ func SliceAppendSlice() {
 	num1[0] = 9999
 	fmt.Println(num1s)
 }
+

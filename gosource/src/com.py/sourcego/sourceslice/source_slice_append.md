@@ -196,7 +196,7 @@ func grow(s Value, extra int) (Value, int, int) {
 }
 ```
 
-#### slice Append Slice
+#### slice Append Slice（致命copy）
 ```cgo
 
 // AppendSlice appends a slice t to a slice s and returns the resulting slice.
@@ -210,4 +210,35 @@ func AppendSlice(s, t Value) Value {
 	Copy(s.Slice(i0, i1), t)
 	return s
 }
+```
+
+
+#### slice and array diff:
+* 结构不同：
+```cgo
+    type array struct{
+        data 
+        len
+    }
+    type slice struct{
+        data
+        len
+        cap
+    }
+```
+
+* 扩容方式：
+    array: 不可动态扩容。
+    slice:  根据容量判断是否需要动态扩容
+* 截取方式：
+    slice & array: num[a:b:c]/num[a:b]
+* 截取分析：
+    [源码分析](https://github.com/golang/go/blob/master/src/reflect/value.go)
+    [plan 9源码分析](https://plan9.io/sources/contrib/ericvh/go-plan9/src/pkg/runtime/slice.c)
+    
+#### 注意事项：
+ ```cgo
+1、致命copy函数
+2、扩容的机制   >1024??
+3、截取时候容量的变化。
 ```
