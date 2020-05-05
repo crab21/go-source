@@ -1,8 +1,0 @@
-{
-  "go.buildOnSave": "workspace",
-  "go.formatTool": "gofmt",
-  "[go]": {
-    "editor.insertSpaces": false,
-    "editor.formatOnSave": true
-  },
-}
