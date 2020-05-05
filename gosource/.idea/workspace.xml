@@ -2,8 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/!burnt!sushi/toml/@v/v0.3.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/ajstarks/svgo/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/ajstarks/svgo/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/ajstarks/svgo/@v/v0.0.0-20200320125537-f189e35d30ca.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/ajstarks/svgo/@v/v0.0.0-20200320125537-f189e35d30ca.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/google/renameio/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/google/renameio/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/google/renameio/@v/v0.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/google/renameio/@v/v0.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/gorilla/websocket/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/gorilla/websocket/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/gorilla/websocket/@v/v1.4.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kisielk/gotool/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kisielk/gotool/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kisielk/gotool/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kisielk/gotool/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/konsorten/go-windows-terminal-sequences/@v/v1.0.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pretty/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pretty/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pty/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pty/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pty/@v/v1.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/pty/@v/v1.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/text/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/text/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/text/@v/v0.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/kr/text/@v/v0.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.3.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.3.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/v1.4.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/v1.4.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/objx/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/objx/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.1.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/objx/@v/v0.1.1.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/testify/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/testify/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.2.2.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.2.2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/crypto/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/crypto/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190308221718-c2843e01d9a2.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190510104115-cbcb75029529.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.0.0-20190510104115-cbcb75029529.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/mod/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/mod/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/mod/@v/v0.0.0-20190513183733-4bf6d317e70e.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/mod/@v/v0.0.0-20190513183733-4bf6d317e70e.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/net/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/net/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190404232315-eb5bcb51f2a3.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/net/@v/v0.0.0-20190620200207-3b0461eec859.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20190423024810-112230192c58.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20200317015054-43a5402ce75a.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sync/@v/v0.0.0-20200317015054-43a5402ce75a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190215142949-d0b11bdaac8a.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190412213103-97732733099d.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190422165155-953cdadca894.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/sys/@v/v0.0.0-20190422165155-953cdadca894.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/text/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/text/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/text/@v/v0.3.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/tools/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/tools/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20191130070609-6e064ea0cf2d.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/tools/@v/v0.0.0-20191130070609-6e064ea0cf2d.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/xerrors/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/xerrors/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/golang.org/x/xerrors/@v/v0.0.0-20190717185122-a985d3407aa7.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/check.v1/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/check.v1/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20180628173108-788fd7840127.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20180628173108-788fd7840127.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/errgo.v2/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/errgo.v2/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/errgo.v2/@v/v2.1.0.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/gopkg.in/errgo.v2/@v/v2.1.0.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/honnef.co/go/tools/@v/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/honnef.co/go/tools/@v/list.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.1-2020.1.3.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/honnef.co/go/tools/@v/v0.0.1-2020.1.3.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceslice/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourceslice/source_slice_append.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceslice/source_slice_append.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,11 +255,12 @@
     </state>
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586165618605" />
     <state x="215" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587567968907" />
-    <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587197937798">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="538" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588676502471">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="461" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586526122075" />
     <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587197937798" />
+    <state x="538" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1588676502471" />
     <state x="357" y="121" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586784811768">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -242,16 +353,17 @@
     <state x="383" y="96" width="673" height="708" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585832632703" />
     <state x="447" y="112" width="786" height="826" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587217702197" />
     <state x="447" y="133" width="786" height="808" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1587997048671" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1586092197420">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="700" height="484" key="javadoc.popup" timestamp="1588676176400">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1586092197420" />
-    <state x="449" y="247" width="782" height="772" key="search.everywhere.popup" timestamp="1588594742703">
+    <state width="700" height="484" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588676176400" />
+    <state x="449" y="247" width="782" height="772" key="search.everywhere.popup" timestamp="1588676149689">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586784590027" />
     <state x="449" y="229" width="782" height="789" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587272612508" />
-    <state x="449" y="247" width="782" height="772" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588594742703" />
+    <state x="449" y="247" width="782" height="772" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588676149689" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
