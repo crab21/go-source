@@ -1,3 +1,19 @@
+- [slice总结：](#slice---)
+  * [描述](#--)
+  * [slice和array区别](#slice-array--)
+    + [结构体定义](#-----)
+    + [创建方式](#----)
+    + [扩容？](#---)
+    + [slice append](#slice-append)
+    + [slice截取](#slice--)
+  * [slice复制](#slice--)
+  * [标准库之--slice](#------slice)
+  * [other:](#other-)
+    + [逃逸分析](#----)
+    + [边界检查分析](#------)
+  * [参考资料：](#-----)
+    + [官方文档:](#-----)
+
 ## slice总结：
 ### 描述
 [Language Specification之slice定义](https://golang.org/ref/spec#Slice_types)
