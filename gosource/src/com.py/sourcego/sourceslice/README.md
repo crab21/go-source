@@ -13,7 +13,7 @@
     + [边界检查分析](#------)
   * [参考资料：](#-----)
     + [官方文档:](#-----)
-
+    
 ## slice总结：
 ### 描述
 [Language Specification之slice定义](https://golang.org/ref/spec#Slice_types)
@@ -76,10 +76,19 @@ interceThree := num[A:B:C] // A<=B B<=C 注：C为截止的下标元素；interc
 
 
 ### other:
-
 #### 逃逸分析
 
+1、[Language Mechanics On Escape Analysis](https://www.ardanlabs.com/blog/2017/05/language-mechanics-on-escape-analysis.html)
+
+2、[Go 语言机制之逃逸分析](https://studygolang.com/articles/12444?fr=sidebar)
+
 #### 边界检查分析 
+
+1、[go101边界消除](https://gfw.go101.org/article/bounds-check-elimination.html)
+
+2、[bounds check in go](https://www.ardanlabs.com/blog/2018/04/bounds-check-elimination-in-go.html)
+
+3、[官方文档](https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit#)
 
 ### 参考资料：
 #### 官方文档:
