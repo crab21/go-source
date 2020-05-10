@@ -25,7 +25,7 @@ overflow || mem > maxAlloc || len < 0 || len > cap
 溢出位 || 内存大于最大分配内存 || 长度小于0 || 长度比容量大
 ```
  
- [make源码](https://github.com/golang/go/blob/master/src/runtime/slice.go#L83)：
+ [Slice创建之make源码](https://github.com/golang/go/blob/master/src/runtime/slice.go#L83)：
  
  ```cgo
 func makeslice(et *_type, len, cap int) unsafe.Pointer {
