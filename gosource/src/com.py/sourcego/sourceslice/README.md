@@ -36,7 +36,7 @@ type Slice struct{
 ```
 
 #### 创建方式
-> slice创建方式
+> [slice创建方式](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_make.md)
 ```cgo
 make(T, n)       slice      slice of type T with length n and capacity n
 make(T, n, m)    slice      slice of type T with length n and capacity m
