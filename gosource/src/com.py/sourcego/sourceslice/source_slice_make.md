@@ -1,10 +1,14 @@
 
-- [slice make过程](#slice-make--)
-  * [make大致流程分析](#----)
-  * [len、size、obj.size判断](#len-size-objsize--)
-  * [mallocgc过程分析](#mallocgc----)
-  * [slice 创建方式的区别](#slice--------)
-  * [slice make注意事项](#slice-make----)
+* [slice make过程](#slice-make过程)
+   * [make大致流程分析](#make大致流程分析)
+   * [len、size、obj.size判断](#lensizeobjsize判断)
+   * [panic错误处理](#panic错误处理)
+   * [mallocgc过程分析](#mallocgc过程分析)
+      * [大致过程（持续理解更新 [todo]）](#大致过程持续理解更新-todo)
+   * [slice 创建方式的区别](#slice-创建方式的区别)
+      * [第一种：](#第一种)
+      * [第二种：](#第二种)
+   * [slice make注意事项](#slice-make注意事项)
 
 ## slice make过程
 
