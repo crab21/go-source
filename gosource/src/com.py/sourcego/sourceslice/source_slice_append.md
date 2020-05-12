@@ -1,16 +1,16 @@
 
 
-- [扩容分析](#----)
-  * [当前容量够用时](#-------)
-  * [当前容量不够用时](#--------)
-  * [slice append扩容说明](#slice-append----)
-- [plan9源码分析扩容情况](#plan9--------)
-  * [分析其中一种截取情况：slice[a:b:c]  条件： a<b b<=c  len:=b-a cap:=c-a](#-----------slice-a-b-c-------a-b-b--c--len--b-a-cap--c-a)
-  * [slice扩容再度分析：](#slice-------)
-  * [slice grow函数扩容分析：](#slice-grow-------)
-  * [slice Append Slice（致命copy）](#slice-append-slice---copy-)
-  * [slice and array diff:](#slice-and-array-diff-)
-  * [注意事项：](#-----)
+         * [扩容分析](#扩容分析)
+            * [当前容量够用时](#当前容量够用时)
+            * [当前容量不够用时](#当前容量不够用时)
+            * [slice append扩容说明](#slice-append扩容说明)
+         * [plan9源码分析扩容情况](#plan9源码分析扩容情况)
+            * [分析其中一种截取情况：slice[a<g-emoji class="g-emoji" alias="b" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f171.png">🅱️</g-emoji>c]  条件： a&lt;b b&lt;=c  len:=b-a cap:=c-a](#分析其中一种截取情况sliceabc--条件-ab-bc--lenb-a-capc-a)
+            * [slice扩容再度分析：](#slice扩容再度分析)
+            * [slice grow函数扩容分析：](#slice-grow函数扩容分析)
+            * [slice Append Slice（致命copy）](#slice-append-slice致命copy)
+            * [slice and array diff:](#slice-and-array-diff)
+            * [注意事项：](#注意事项)
 
 ### 扩容分析
 ```
