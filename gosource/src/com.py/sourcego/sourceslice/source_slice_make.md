@@ -328,9 +328,19 @@ func mallocgc(size uintptr, typ *_type, needzero bool) unsafe.Pointer {
 
 
 
->具体的创建过程
+>创建过程概述
 ![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200511181503.png)
 
 ### slice 创建方式的区别
-
+#### 第一种：
+```cgo
+var num []int  // num==nil
+num = append(num,1)  // allocation memory
+```
+#### 第二种：
+```cgo
+var num = make([]int,0,10)  // []int{}
+var num = make([]int,10)  // []int{0,0,0,0,0,0,0,0,0,0}
+```
 ### slice make注意事项
+[查看详情](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_make.go)
