@@ -1,5 +1,11 @@
 
-
+* [pool简介](#pool简介)
+* [使用场景](#使用场景)
+* [注意事项](#注意事项)
+* [源码分析](#源码分析)
+      * [初始化函数--&gt;GC回收分析：](#初始化函数--gc回收分析)
+      * [线程安全吗？可以在多个goroutine中同时使用吗？](#线程安全吗可以在多个goroutine中同时使用吗)
+   * [那么也产生了一个新的问题：](#那么也产生了一个新的问题)
 
 ## pool简介
 >a pool is a set of temporary objects that may be individually saved and retrieved.--[go package](https://golang.org/pkg/sync/#pool)
