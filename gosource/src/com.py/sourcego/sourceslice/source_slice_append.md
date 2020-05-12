@@ -1,16 +1,16 @@
 
 
-         * [扩容分析](#扩容分析)
-            * [当前容量够用时](#当前容量够用时)
-            * [当前容量不够用时](#当前容量不够用时)
-            * [slice append扩容说明](#slice-append扩容说明)
-         * [plan9源码分析扩容情况](#plan9源码分析扩容情况)
-            * [分析其中一种截取情况：slice[a<g-emoji class="g-emoji" alias="b" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f171.png">🅱️</g-emoji>c]  条件： a&lt;b b&lt;=c  len:=b-a cap:=c-a](#分析其中一种截取情况sliceabc--条件-ab-bc--lenb-a-capc-a)
-            * [slice扩容再度分析：](#slice扩容再度分析)
-            * [slice grow函数扩容分析：](#slice-grow函数扩容分析)
-            * [slice Append Slice（致命copy）](#slice-append-slice致命copy)
-            * [slice and array diff:](#slice-and-array-diff)
-            * [注意事项：](#注意事项)
+* [扩容分析](#扩容分析)
+    * [当前容量够用时](#当前容量够用时)
+    * [当前容量不够用时](#当前容量不够用时)
+    * [slice append扩容说明](#slice-append扩容说明)
+* [plan9源码分析扩容情况](#plan9源码分析扩容情况)
+    * [分析其中一种截取情况：](#分析其中一种截取情况)
+    * [slice扩容再度分析：](#slice扩容再度分析)
+    * [slice grow函数扩容分析：](#slice-grow函数扩容分析)
+    * [slice Append Slice（致命copy）](#slice-append-slice致命copy)
+    * [slice and array diff:](#slice-and-array-diff)
+    * [注意事项：](#注意事项)
 
 ### 扩容分析
 ```
@@ -117,7 +117,8 @@ func AppendLearn_1() {
 ### plan9源码分析扩容情况
 
 [go-plan9-slice源码分析](https://plan9.io/sources/contrib/ericvh/go-plan9/src/pkg/runtime/slice.c)
-#### 分析其中一种截取情况：slice[a:b:c]  条件： a<b b<=c  len:=b-a cap:=c-a
+#### 分析其中一种截取情况：
+>slice[a:b:c]  条件： a<b b<=c  len:=b-a cap:=c-a
 ```cgo
 // sliceslice(old []any, lb int, hb int, width int) (ary []any);
 void
