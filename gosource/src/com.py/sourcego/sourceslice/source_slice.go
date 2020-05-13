@@ -155,7 +155,7 @@ func SliceAppendSlice() {
 	num1 = append(num1, 1)
 	num2 := []int{11, 22, 33, 44, 55}
 	num1s := append(num1, num2...)
-	num2[0] = 6666
+	num2[2] = 6666
 	num1[0] = 9999
 	fmt.Println(num1s)
 }

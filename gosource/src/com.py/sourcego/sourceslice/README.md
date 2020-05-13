@@ -60,6 +60,8 @@ var s = [3]int{1,2,3}
 [Issues# 6](https://github.com/crab21/go-source/issues/6)
 
 #### slice append 
+>[Append方式中的问题](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_append.md)
+
 推荐方式如下：
 ![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200506113044.png)
 
@@ -97,3 +99,5 @@ interceThree := num[A:B:C] // A<=B B<=C 注：C为截止的下标元素；interc
 2、[make slice](https://golang.org/ref/spec#Making_slices_maps_and_channels)
 
 3、[Append and Copy slice](https://golang.org/ref/spec#Appending_and_copying_slices)
+
+4、[Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
