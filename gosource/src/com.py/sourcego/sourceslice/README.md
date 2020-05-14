@@ -58,6 +58,7 @@ var s = [3]int{1,2,3}
 
 #### 扩容？
 [Issues# 6](https://github.com/crab21/go-source/issues/6)
+[Slice grow](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_grow.md)
 
 #### slice append 
 >[Append方式中的问题](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_append.md)
