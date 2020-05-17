@@ -27,7 +27,7 @@ func Unmarshal(data []byte, v interface{}) error
 原文参考：
 ![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200517164731.png)
 ```cgo
-v 为空        或          v 不是pointer类型
+v 为空        或          v不是pointer类型
 ```
 
 ## [测试用例](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceencoding/source_json.go)
