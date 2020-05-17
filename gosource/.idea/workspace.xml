@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding/source_json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding/source_json.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding/source_json_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding/source_json.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding/source_json.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,18 @@
       <recent name="$PROJECT_DIR$/src/com/sourcego" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestOmitempty in com.py/sourcego/sourceencoding">
+  <component name="RunManager" selected="Go Test.BenchmarkSliceCopyOfApi in com.py/sourcego/sourceslice">
+    <configuration name="BenchmarkSliceCopyOfApi in com.py/sourcego/sourceslice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gosource" />
+      <working_directory value="$PROJECT_DIR$/src/com.py/sourcego/sourceslice" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="com.py/sourcego/sourceslice" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkSliceCopyOfApi$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestJsonMarshalUnmarshal in com.py/sourcego/sourceencoding" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gosource" />
       <working_directory value="$PROJECT_DIR$/src/com.py/sourcego/sourceencoding" />
@@ -111,24 +118,13 @@
       <pattern value="^TestOmitempty$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceAppendSlice in com.py/sourcego/sourceslice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gosource" />
-      <working_directory value="$PROJECT_DIR$/src/com.py/sourcego/sourceslice" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="com.py/sourcego/sourceslice" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSliceAppendSlice$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkSliceCopyOfApi in com.py/sourcego/sourceslice" />
         <item itemvalue="Go Test.TestOmitempty in com.py/sourcego/sourceencoding" />
         <item itemvalue="Go Test.TestOmitempty in com.py/sourcego/sourcestruct" />
         <item itemvalue="Go Test.TestJsonMarshalUnmarshal in com.py/sourcego/sourceencoding" />
         <item itemvalue="Go Test.TestJsonMarshalUnmarshal in com.py/sourcego/sourcestruct" />
-        <item itemvalue="Go Test.TestSliceAppendSlice in com.py/sourcego/sourceslice" />
       </list>
     </recent_temporary>
   </component>
@@ -157,11 +153,11 @@
     </state>
     <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586165618605" />
     <state x="215" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587567968907" />
-    <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589120669137">
+    <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589707982653">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="461" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586526122075" />
-    <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1589120669137" />
+    <state x="538" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1589707982653" />
     <state x="538" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1588735787719" />
     <state x="357" y="121" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586784811768">
       <screen x="0" y="0" width="1440" height="900" />
@@ -175,38 +171,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="427" y="99" key="#go_build_source_slice.go_source_slice_test.go/0.0.1440.900@0.0.1440.900" timestamp="1584257418621" />
-    <state width="1659" height="344" key="GridCell.Tab.0.bottom" timestamp="1589706337134">
+    <state width="1659" height="416" key="GridCell.Tab.0.bottom" timestamp="1589709100223">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="313" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586786077066" />
-    <state width="1659" height="344" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1589706337134" />
+    <state width="1659" height="416" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1589709100223" />
     <state width="1398" height="396" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1585995990516" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1584257862890" />
     <state width="1659" height="327" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588839350243" />
     <state width="1659" height="391" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1586872414951" />
-    <state width="1659" height="344" key="GridCell.Tab.0.center" timestamp="1589706337132">
+    <state width="1659" height="416" key="GridCell.Tab.0.center" timestamp="1589709100222">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="313" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586786077065" />
-    <state width="1659" height="344" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1589706337132" />
+    <state width="1659" height="416" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1589709100222" />
     <state width="1398" height="396" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1585995990516" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1584257862889" />
     <state width="1659" height="327" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588839350243" />
     <state width="1659" height="391" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1586872414947" />
-    <state width="1659" height="344" key="GridCell.Tab.0.left" timestamp="1589706337132">
+    <state width="1659" height="416" key="GridCell.Tab.0.left" timestamp="1589709100221">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="313" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586786077065" />
-    <state width="1659" height="344" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1589706337132" />
+    <state width="1659" height="416" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1589709100221" />
     <state width="1398" height="396" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1585995990515" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1584257862888" />
     <state width="1659" height="327" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588839350242" />
     <state width="1659" height="391" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1586872414946" />
-    <state width="1659" height="344" key="GridCell.Tab.0.right" timestamp="1589706337133">
+    <state width="1659" height="416" key="GridCell.Tab.0.right" timestamp="1589709100222">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="313" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586786077066" />
-    <state width="1659" height="344" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1589706337133" />
+    <state width="1659" height="416" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1589709100222" />
     <state width="1398" height="396" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1585995990516" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1584257862890" />
     <state width="1659" height="327" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588839350243" />
