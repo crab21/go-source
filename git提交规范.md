@@ -14,7 +14,7 @@ zzzz...
 [源码路径]  版本号  类型 : 具体内容
 ```
 >源码路径：
-[参考路径](![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200517175159.png))
+[参考路径](https://github.com/crab21/Images/blob/master/blog/20200517175159.png)
 
 >版本号：
 X.N.M ---> 
