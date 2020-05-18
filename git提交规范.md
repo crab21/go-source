@@ -35,9 +35,11 @@ M : 小版本提交序号 ===> < 100
 	refactor : 重构
 	test : 测试类修改
 	bench : 性能测试
+	performance : 性能提升型
 可选组合：(可作为标签使用)
 	skill : 技巧型
 	pit : 常见错误
+	
 	
 例：
 	md/skill : md文件中小技巧的修改
