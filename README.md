@@ -23,7 +23,7 @@ go源码学习与分析
 * Channel
 
 ### 标准库
-
+#### [目录结构](https://github.com/crab21/go-source/blob/master/standard_library.md)
 ### Go测试
 
 ### CI
@@ -31,3 +31,4 @@ go源码学习与分析
 ### 优化
 
 ### blog
+* [→Slice](https://blog.golang.org/slices-intro)
