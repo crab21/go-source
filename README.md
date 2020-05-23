@@ -15,7 +15,7 @@ Go源码学习与分析
 
 
 ### 基础组件
-* string
+* [string](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourcestring/README.md)
 * [Slice](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/README.md)
 * Map
 * interface

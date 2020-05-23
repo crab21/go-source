@@ -36,6 +36,7 @@ M : 小版本提交序号 ===> < 100
 	test : 测试类修改
 	bench : 性能测试
 	performance : 性能提升型
+	style : 样式风格调整
 可选组合：(可作为标签使用)
 	skill : 技巧型
 	pit : 常见错误
