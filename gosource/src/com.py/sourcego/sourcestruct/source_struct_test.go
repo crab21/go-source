@@ -14,3 +14,8 @@ func TestOmitempty(t *testing.T) {
 func TestJsonMarshalUnmarshal(t *testing.T) {
 	JsonMarshalUnmarshal()
 }
+
+
+func TestPointerInfo(t *testing.T) {
+	PointerInfo()
+}

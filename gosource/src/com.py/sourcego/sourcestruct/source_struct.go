@@ -3,6 +3,7 @@ package sourcestruct
 import (
 	"encoding/json"
 	"fmt"
+	"reflect"
 )
 
 type People interface {
@@ -39,25 +40,58 @@ type Usr struct {
 	Names string `json:",omitempty"`
 }
 type UsrName struct {
-	Age  int  `json:"age"`
+	Age    int `json:"age"`
 	Number int
-	User *Usr `json:"sp,omitempty"`
+	User   *Usr `json:"sp,omitempty"`
 }
 
 func Omitempty() {
-	op := UsrName{Age:10}
-	result,error := json.Marshal(op)
+	op := UsrName{Age: 10}
+	result, error := json.Marshal(op)
 	fmt.Println(string(result))
 	fmt.Println(error)
 }
 
-func JsonMarshalUnmarshal(){
+func JsonMarshalUnmarshal() {
 	var username UsrName
 	var userNamePointer *UsrName
-	usernameType := fmt.Sprintf("%T",username)
+	usernameType := fmt.Sprintf("%T", username)
 
-	userNamePointerType := fmt.Sprintf("%T",userNamePointer)
+	userNamePointerType := fmt.Sprintf("%T", userNamePointer)
 
-	fmt.Println("init value: ",username,"  ",usernameType, "  ",&username)
-	fmt.Println("init value: ",userNamePointer,"  ",userNamePointerType,"   ",userNamePointer)
+	fmt.Println("init value: ", username, "  ", usernameType, "  ", &username)
+	fmt.Println("init value: ", userNamePointer, "  ", userNamePointerType, "   ", userNamePointer)
+}
+
+func PointerInfo() {
+	//var usr  = &UsrName{10,20,nil}
+	//PointerInterface(usr.User)
+	//age := *usr.User
+	//
+	//fmt.Println(age)
+	//fmt.Println()
+
+	var s *interface{}  = new(interface{})
+	*s = "wanga"
+	fmt.Println(s)
+
+
+	value := reflect.ValueOf(s)
+	result := value.IsNil()
+	fmt.Println(result)
+
+
+	ele :=value.Elem()
+	fmt.Println(ele.Interface())
+	fmt.Println(ele.Kind())
+}
+
+func PointerInterface(sp interface{}) {
+	fmt.Println("spinfo")
+
+	sp_result := reflect.ValueOf(sp)
+	fmt.Println(sp_result)
+
+	info := sp_result.IsNil()
+	fmt.Println(info)
 }
