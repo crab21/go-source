@@ -50,6 +50,7 @@ func BenchmarkSliceAppendMake(b *testing.B) {
 			}
 		}
 	})
+	
 	b.Run("normal", func(b *testing.B) {
 		for i := 0; i < b.N; i++ {
 			des := []string{"1", "2", "3", "4", "1", "2", "3", "4", "1", "2", "3", "4", "1", "2", "3", "4", "1", "2", "3", "4", "1", "2", "3", "4"}

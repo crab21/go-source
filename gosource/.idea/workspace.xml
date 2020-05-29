@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com.py/sourcego/sourceslice/source_slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceslice/source_slice_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
