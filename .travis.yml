@@ -8,5 +8,5 @@ env:
     - GO111MODULE=on
 
 script:
-    - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourceslice/*.go -benchtime=3s -run=none
+    - go test -v  gosource/src/com.py/sourcego/*/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/*/*.go -benchtime=3s -run=none
