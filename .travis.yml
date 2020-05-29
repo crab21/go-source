@@ -17,9 +17,6 @@ script:
     - go test -v  gosource/src/com.py/sourcego/sourceencoding/*.go
     - go test -v -bench=. gosource/src/com.py/sourcego/sourceencoding/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourceerror/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourceerror/*.go -benchtime=3s -run=none
-
     - go test -v  gosource/src/com.py/sourcego/sourcemap/*.go
     - go test -v -bench=. gosource/src/com.py/sourcego/sourcemap/*.go -benchtime=3s -run=none
 
