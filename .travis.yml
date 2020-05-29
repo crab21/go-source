@@ -1,16 +1,16 @@
 language:
-	- go
+    - go
 
 go:
-	- "1.14.x"
+    - "1.14.x"
 	- master
 
 env:
     - GO111MODULE=on
 
 before_script:
-	- cd gosource/src/main/
-	- go mod download 
+    - cd gosource/src/main/
+    - go mod download 
 
 script:
-	- go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
+    - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
