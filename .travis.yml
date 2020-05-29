@@ -9,3 +9,4 @@ env:
 
 script:
     - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourceslice/*.go -benchtime=3s -run=none
