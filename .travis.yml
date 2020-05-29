@@ -8,9 +8,5 @@ go:
 env:
     - GO111MODULE=on
 
-before_script:
-    - cd gosource/src/main/
-    - go mod download 
-
 script:
     - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
