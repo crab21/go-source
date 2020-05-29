@@ -8,5 +8,35 @@ env:
     - GO111MODULE=on
 
 script:
-    - go test -v  gosource/src/com.py/sourcego/*/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/*/*.go -benchtime=3s -run=none
+    - go test -v  gosource/src/com.py/sourcego/sourcebufio/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcebufio/*.go -benchtime=3s -run=none
+    
+    - go test -v  gosource/src/com.py/sourcego/sourcechan/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcechan/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourceencoding/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourceencoding/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourceerror/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourceerror/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourcemap/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcemap/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourcepool/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcepool/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourceruntime/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourceruntime/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourceslice/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourcestatements/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestatements/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourcestring/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestring/*.go -benchtime=3s -run=none
+
+    - go test -v  gosource/src/com.py/sourcego/sourcestruct/*.go
+    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestruct/*.go -benchtime=3s -run=none
