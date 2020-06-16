@@ -7,7 +7,7 @@ import (
 
 type S struct {x int}
 func (s S) M() int {return s.x}
-type ST struct {*S}
+type ST struct {*S }
 
 func ReflectStruct() {
 	t := ST{&S{1}}

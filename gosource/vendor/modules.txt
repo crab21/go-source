@@ -1,0 +1,11 @@
+# github.com/ajstarks/svgo v0.0.0-20200320125537-f189e35d30ca
+## explicit
+# github.com/gorilla/websocket v1.4.2
+## explicit
+github.com/gorilla/websocket
+# github.com/sirupsen/logrus v1.4.2
+## explicit
+# golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
+## explicit
+# honnef.co/go/tools v0.0.1-2020.1.3
+## explicit

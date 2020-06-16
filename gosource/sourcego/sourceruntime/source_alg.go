@@ -35,8 +35,8 @@ func AlgMemequals() {
 	c(T{f, 1}, T{f, 2}) //runtime error: comparing uncomparable type func()
 }
 func AlgMemequalsFunc() {
-	var a =AlgStringInsert
-	var b =AlgStringInsertTwo
+	var a = AlgStringInsert
+	var b = AlgStringInsertTwo
 
 	c(T{1.0, a}, T{2.0, b})
 	c(T{a, 1}, T{b, 2})
