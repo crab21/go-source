@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.travis.yml.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceinterface/source_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com.py/sourcego/sourceinterface/source_interface_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +40,6 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$" />
-      </list>
-    </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1Z9fslKAMIGcWbRZbDCg7T9gSJw" />
@@ -53,15 +63,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/com.py/sourcego/sourcestruct" />
       <recent name="$PROJECT_DIR$/src/com.py/sourcego/sourcestring" />
       <recent name="$PROJECT_DIR$/src/com.py/sourcego/sourcemap" />
       <recent name="$PROJECT_DIR$/src/com.py/sourcego/sourceslice" />
-      <recent name="$PROJECT_DIR$/src/com/sourcego" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestInterfaceIsValid in com.py/sourcego/sourceinterface">
@@ -130,8 +140,29 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="" />
+      <created>1592319200206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592319200206</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -241,12 +272,13 @@
     <state width="1398" height="327" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1585498867187" />
     <state width="1659" height="518" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588255375769" />
     <state width="1659" height="391" key="GridCell.Tab.1.right/44.23.1636.1027@44.23.1636.1027" timestamp="1586872414954" />
-    <state x="267" y="125" key="SettingsEditor" timestamp="1588839302467">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="325" y="148" key="SettingsEditor" timestamp="1592319718934">
+      <screen x="0" y="23" width="2048" height="1257" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586771704534" />
     <state x="229" y="103" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1585453220768" />
     <state x="267" y="125" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588839302467" />
+    <state x="325" y="148" key="SettingsEditor/0.23.2048.1257@0.23.2048.1257" timestamp="1592319718934" />
     <state x="399" y="261" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590300882486">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -273,17 +305,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go</url>
+          <url>file://$PROJECT_DIR$/sourcego/sourcestruct/source_struct.go</url>
           <line>66</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/com.py/sourcego/sourcestruct/source_struct.go</url>
+          <url>file://$PROJECT_DIR$/sourcego/sourcestruct/source_struct.go</url>
           <line>91</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect_test.go</url>
+          <url>file://$PROJECT_DIR$/sourcego/sourcereflect/source_reflect_test.go</url>
           <line>10</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
@@ -293,7 +325,7 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/com.py/sourcego/sourcereflect/source_reflect.go</url>
+          <url>file://$PROJECT_DIR$/sourcego/sourcereflect/source_reflect.go</url>
           <line>48</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
