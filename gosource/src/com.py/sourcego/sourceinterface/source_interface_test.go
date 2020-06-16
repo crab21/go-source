@@ -6,7 +6,6 @@ func TestInterfaceNil(t *testing.T) {
 	InterfaceNil()
 }
 
-
 func TestInterfaceIsValid(t *testing.T) {
 	InterfaceIsValid()
 }

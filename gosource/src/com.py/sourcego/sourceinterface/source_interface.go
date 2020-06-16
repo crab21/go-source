@@ -31,30 +31,29 @@ func InterfaceIsValid() {
 	of := reflect.ValueOf(value_a)
 	if of.IsValid() {
 		fmt.Println(of, " is valid") //<nil>  is valid   [如果30L为：var value_a interface{} = nil,则会引发painc]s
-	}else{
-		fmt.Println(of," is not valid")
+	} else {
+		fmt.Println(of, " is not valid")
 	}
 
 	zero := of.IsZero()
-	fmt.Println("zero: ",zero) //zero:  true
+	fmt.Println("zero: ", zero) //zero:  true
 	fmt.Println("")
-
 
 	var value_b int = 0
 	valueOf := reflect.ValueOf(value_b)
 	valid := valueOf.IsValid()
 
-	if valid{
-		fmt.Println(value_b," is valid") //0  is valid
-	}else{
-		fmt.Println(value_b,"is not valid")
+	if valid {
+		fmt.Println(value_b, " is valid") //0  is valid
+	} else {
+		fmt.Println(value_b, "is not valid")
 	}
 
 	isZero := valueOf.IsZero()
-	fmt.Println("iszero: ",isZero) //iszero:  true
+	fmt.Println("iszero: ", isZero) //iszero:  true
 
 	kind := valueOf.Kind()
-	fmt.Println("kind: ",kind)
+	fmt.Println("kind: ", kind)
 }
 
 func returnNil() *interface{} {

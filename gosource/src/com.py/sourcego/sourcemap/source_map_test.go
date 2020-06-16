@@ -24,9 +24,11 @@ ChangeSliceAppend=== len:  4  cap:  20
 ChangeSliceAppend data: [300 20000 999 888]
 [300 20000]
 
+
+
 */
 func TestChangeMapValue(t *testing.T) {
-	var sp = map[int]int{1:20}
+	var sp = map[int]int{1: 20}
 	ChangeMapValue(sp)
 	//map[1:100 2:200]
 	fmt.Println(sp)
@@ -37,7 +39,7 @@ func TestChangeMapValue(t *testing.T) {
 	fmt.Println(spNil)
 	fmt.Println()
 
-	var sliceTestData = []int{3,333}
+	var sliceTestData = []int{3, 333}
 	ChangeSlice(sliceTestData)
 	//[300 20000]
 	fmt.Println(sliceTestData)
@@ -49,24 +51,23 @@ func TestChangeMapValue(t *testing.T) {
 	fmt.Println(sliceTestDataNil)
 	fmt.Println()
 
-	var sliceTestDataAppend = []int{3,333}
-	fmt.Println(" len: ",len(sliceTestDataAppend)," cap: ",cap(sliceTestDataAppend))
+	var sliceTestDataAppend = []int{3, 333}
+	fmt.Println(" len: ", len(sliceTestDataAppend), " cap: ", cap(sliceTestDataAppend))
 	ChangeSliceAppend(sliceTestDataAppend)
 	//[3 333]
 	fmt.Println(sliceTestDataAppend)
 	fmt.Println()
 
-	var sliceTestDataAppendMake = make([]int,0,20)
-	sliceTestDataAppendMake = append(sliceTestDataAppendMake, 111,222)
+	var sliceTestDataAppendMake = make([]int, 0, 20)
+	sliceTestDataAppendMake = append(sliceTestDataAppendMake, 111, 222)
 
 	//len:  2  cap:  20
-	fmt.Println(" len: ",len(sliceTestDataAppendMake)," cap: ",cap(sliceTestDataAppendMake))
+	fmt.Println(" len: ", len(sliceTestDataAppendMake), " cap: ", cap(sliceTestDataAppendMake))
 	ChangeSliceAppend(sliceTestDataAppendMake)
 	//[300 20000]   cap足够大，则add新元素，属于值拷贝，第0位和第1位值的改变，依旧会影响原slice值。
 	fmt.Println(sliceTestDataAppendMake)
 
 }
-
 
 func TestSourceMapValues(t *testing.T) {
 	SourceMapValues()
@@ -76,7 +77,7 @@ func TestSourceMapValues(t *testing.T) {
 func TestFnv32(t *testing.T) {
 	fnv32 := Fnv32("2020012300000610")
 	fmt.Println(fnv32)
-	sp :=fnv32%1024
+	sp := fnv32 % 1024
 	fmt.Println(sp)
 	var ss map[int]int = nil
 	if ss == nil {
