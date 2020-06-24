@@ -8,34 +8,34 @@ env:
     - GO111MODULE=on
 
 script:
-    - go test -v  gosource/src/com.py/sourcego/sourcebufio/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcebufio/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcebufio/*.go
+    - go test -v -bench=. gosource/sourcego/sourcebufio/*.go -benchtime=3s -run=none
     
-    - go test -v  gosource/src/com.py/sourcego/sourcechan/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcechan/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcechan/*.go
+    - go test -v -bench=. gosource/sourcego/sourcechan/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourceencoding/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourceencoding/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourceencoding/*.go
+    - go test -v -bench=. gosource/sourcego/sourceencoding/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourcemap/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcemap/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcemap/*.go
+    - go test -v -bench=. gosource/sourcego/sourcemap/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourcepool/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcepool/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcepool/*.go
+    - go test -v -bench=. gosource/sourcego/sourcepool/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourceruntime/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourceruntime/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourceruntime/*.go
+    - go test -v -bench=. gosource/sourcego/sourceruntime/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourceslice/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourceslice/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourceslice/*.go
+    - go test -v -bench=. gosource/sourcego/sourceslice/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourcestatements/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestatements/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcestatements/*.go
+    - go test -v -bench=. gosource/sourcego/sourcestatements/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourcestring/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestring/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcestring/*.go
+    - go test -v -bench=. gosource/sourcego/sourcestring/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourcestruct/*.go
-    - go test -v -bench=. gosource/src/com.py/sourcego/sourcestruct/*.go -benchtime=3s -run=none
+    - go test -v  gosource/sourcego/sourcestruct/*.go
+    - go test -v -bench=. gosource/sourcego/sourcestruct/*.go -benchtime=3s -run=none
 
-    - go test -v  gosource/src/com.py/sourcego/sourceinterface/*.go
+    - go test -v  gosource/sourcego/sourceinterface/*.go
