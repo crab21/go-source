@@ -36,7 +36,7 @@ type Slice struct{
 ```
 
 #### 创建方式
-> [slice创建方式](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_make.md)
+> [slice创建方式](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_make.md)
 ```cgo
 make(T, n)       slice      slice of type T with length n and capacity n
 make(T, n, m)    slice      slice of type T with length n and capacity m
@@ -59,10 +59,10 @@ var s = [3]int{1,2,3}
 #### 扩容？
 [Issues# 6](https://github.com/crab21/go-source/issues/6)
 
-[Slice grow](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_grow.md)
+[Slice grow](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_grow.md)
 
 #### slice append 
->[Append方式中的问题](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_append.md)
+>[Append方式中的问题](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_append.md)
 
 推荐方式如下：
 ![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200506113044.png)
