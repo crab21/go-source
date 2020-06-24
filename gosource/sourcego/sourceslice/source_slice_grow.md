@@ -16,7 +16,7 @@
 
 ## 简单过程分析
 
->[见Slice grow函数扩容分析](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_append.md#slice-grow%E5%87%BD%E6%95%B0%E6%89%A9%E5%AE%B9%E5%88%86%E6%9E%90)
+>[见Slice grow函数扩容分析](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_append.md#slice-grow%E5%87%BD%E6%95%B0%E6%89%A9%E5%AE%B9%E5%88%86%E6%9E%90)
 
 ## 竟态变量介绍
 

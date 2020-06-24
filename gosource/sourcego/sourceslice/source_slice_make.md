@@ -347,4 +347,4 @@ var num = make([]int,0,10)  // []int{}
 var num = make([]int,10)  // []int{0,0,0,0,0,0,0,0,0,0}
 ```
 ### slice make注意事项
-[查看详情](https://github.com/crab21/go-source/blob/master/gosource/src/com.py/sourcego/sourceslice/source_slice_make.go)
+[查看详情](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_make.go)
