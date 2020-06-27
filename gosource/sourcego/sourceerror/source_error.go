@@ -4,6 +4,11 @@ import "fmt"
 
 func ErrorOrPainc() {
 	defer func() {
+		if err:=recover();err!= nil {
+			fmt.Println("error:.....",err)
+		}
+	}()
+	defer func() {
 		fmt.Println("ok")
 	}()
 

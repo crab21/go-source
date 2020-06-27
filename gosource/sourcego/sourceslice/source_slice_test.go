@@ -2,6 +2,7 @@ package sourceslice
 
 import (
 	"fmt"
+	"reflect"
 	"strings"
 	"testing"
 )
@@ -160,6 +161,14 @@ func TestAppendSliceError(t *testing.T) {
 }
 
 
+type User struct {
+	Age int
+	Name string
+}
 func TestSliceAppendSlice(t *testing.T) {
-	SliceAppendSlice()
+	//SliceAppendSlice()
+	var s *User = &User{Age: 10}
+	of := reflect.ValueOf(s)
+	valid := of.Elem().IsValid()
+	fmt.Println(valid)
 }
