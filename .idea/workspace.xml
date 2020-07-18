@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6497c06c-d13a-405b-b692-d64ed48fdbd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go_issues/issues-little-v1.14.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_issues/issues-v1.x.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/gosource.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/vendor/modules.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1eqnCQRVsXxBGYzvp5zGEtoL0qq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/go_issues" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go_issues" />
+    </key>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="449" key="#Dep" timestamp="1595058020016">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="640" y="449" key="#Dep/0.0.1680.1050@0.0.1680.1050" timestamp="1595058020016" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595059017552">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595059017552" />
+    <state x="549" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595058125406">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="549" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1595058125406" />
+  </component>
+</project>
