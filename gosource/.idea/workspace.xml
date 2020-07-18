@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8239d5ca-3ad6-48c9-8aa3-6a5eae9d99b6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../go_issues/issues-little-v1.14.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_issues/issues-v1.14.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_issues/issues-v1.x.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosource.code-workspace" beforeDir="false" />

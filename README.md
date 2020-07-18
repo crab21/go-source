@@ -28,8 +28,9 @@ Go源码学习与分析
 * Channel
 ### GO官方issues及skills
 
-[issues V1.* 新特性](https://github.com/crab21/go-source/go_issues/issues-v1.x.md)
-[issues V1.14](https://github.com/crab21/go-source/go_issues/issues-little-v1.14.md)
+[issues V1.* 新特性](https://github.com/crab21/go-source/blob/master/go_issues/issues-v1.x.md)
+
+[issues V1.14](https://github.com/crab21/go-source/blob/master/go_issues/issues-little-v1.14.md)
 
 
 ### 标准库

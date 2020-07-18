@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6497c06c-d13a-405b-b692-d64ed48fdbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go_issues/issues-little-v1.14.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_issues/issues-v1.x.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosource/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosource/gosource.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosource/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosource/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gosource/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
