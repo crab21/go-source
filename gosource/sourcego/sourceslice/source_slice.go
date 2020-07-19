@@ -28,18 +28,18 @@ func SliceCopyOfSelf() {
 
 //slice append方式
 
-//make后再添加
+//make后再添加 √
 func SliceAppendMake(source []string) {
-	a := make([]string, len(source), len(source))
+	a := make([]string, 0, len(source))
 
-	source = append(a, source...)
+	a = append(a, source...)
 
 }
 
-//直接添加 √
+//直接添加
 func SliceAppendNormal(source []string) {
 	var b []string
-	source = append(b, source...)
+	b = append(b, source...)
 }
 
 //截取
