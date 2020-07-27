@@ -65,7 +65,7 @@ var s = [3]int{1,2,3}
 >[Append方式中的问题](https://github.com/crab21/go-source/blob/master/gosource/sourcego/sourceslice/source_slice_append.md)
 
 推荐方式如下：
-![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200506113044.png)
+![](https://raw.githubusercontent.com/crab21/Images/master//blog/20200727230057.png)
 
 #### slice截取
 ```cgo
