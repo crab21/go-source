@@ -28,7 +28,7 @@ func SliceCopyOfSelf() {
 
 //slice append方式
 
-//make后再添加 √
+//make后再添加 √ [长度已知]
 func SliceAppendMake(source []string) {
 	a := make([]string, 0, len(source))
 
