@@ -18,3 +18,16 @@ func BufferRead() {
 	bufio.NewWriter(open)
 }
 
+const (
+	mutexLocked = 1 << iota // mutex is locked
+	mutexWoken
+	mutexStarving
+	mutexWaiterShift = iota
+)
+
+func PrintIotaInfo() {
+	fmt.Println(mutexLocked)
+	fmt.Println(mutexWoken)
+	fmt.Println(mutexStarving)
+	fmt.Println(mutexWaiterShift)
+}

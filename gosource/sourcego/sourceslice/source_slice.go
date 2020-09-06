@@ -160,3 +160,8 @@ func SliceAppendSlice() {
 	fmt.Println(num1s)
 }
 
+func MakeSliceIntercept(){
+	var x = [20]int{3: 1, 9: 20}
+	fmt.Println(x)
+
+}

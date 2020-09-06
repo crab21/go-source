@@ -172,3 +172,7 @@ func TestSliceAppendSlice(t *testing.T) {
 	valid := of.Elem().IsValid()
 	fmt.Println(valid)
 }
+
+func TestMakeSliceIntercept(t *testing.T) {
+	MakeSliceIntercept()
+}

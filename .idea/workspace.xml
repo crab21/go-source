@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6497c06c-d13a-405b-b692-d64ed48fdbd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gosource/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/sourcego/sourceslice/source_slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/sourcego/sourceslice/source_slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gosource/sourcego/sourceslice/source_slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gosource/sourcego/sourceslice/source_slice_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -41,18 +44,56 @@
       <recent name="$PROJECT_DIR$/go_issues" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="TestMakeSliceIntercept in source_slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-source" />
+      <working_directory value="$PROJECT_DIR$/gosource/sourcego/sourceslice" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/gosource/sourcego/sourceslice/source_slice_test.go" />
+      <pattern value="^TestMakeSliceIntercept$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestMakeSliceIntercept in source_slice_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="WindowStateProjectService">
     <state x="640" y="449" key="#Dep" timestamp="1595058020016">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="640" y="449" key="#Dep/0.0.1680.1050@0.0.1680.1050" timestamp="1595058020016" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595059017552">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="304" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595863891753">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595059017552" />
+    <state x="304" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1595863891753" />
     <state x="549" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595058125406">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="549" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1595058125406" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1595863991781">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595863991781" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1595863991780">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595863991780" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1595863991779">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595863991779" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1595863991780">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595863991780" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595862367282">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595862367282" />
   </component>
 </project>
