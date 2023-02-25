@@ -36,7 +36,8 @@ go.starlark.net/syntax
 # golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4
 golang.org/x/arch/arm64/arm64asm
 golang.org/x/arch/x86/x86asm
-# golang.org/x/sys v0.0.0-20190626221950-04f50cda93cb
+# golang.org/x/sys v0.1.0
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 # golang.org/x/tools v0.0.0-20191127201027-ecd32218bd7f
